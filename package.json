@@ -1,6 +1,9 @@
 {
   "name": "lost-and-found",
   "version": "0.1.0",
+  "engines": {
+    "node": "22.9.0"
+  },
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.14.0",
