@@ -30,8 +30,9 @@ body {
   padding-left: 10px; /* Keep this */
   margin-left: 0; /* Remove shifting caused by margin */
   color: white;
+  margin-top: 1.5vh;
 }
-.nav-links {
+.nav-links, .nav-link {
   list-style: none;
   display: flex;
   gap: 20px;
@@ -49,4 +50,15 @@ body {
 .nav-link.active {
   color: #1B2845; /* Change this to the color you want for the active link */
   font-weight: bold;
+}
+
+.logo{
+  display:inline-block;
+  width: 75px;
+  height: 75px;
+}
+
+.left, .right{
+  display: flex;
+   gap: 20px;
 }

@@ -6,7 +6,11 @@ function Navbar() {
   return (
     <div className="container-fluid navbar-expand-lg">
     <nav className="navbar">
-      <h1 class = "title">Anagolay - Lost & Found at Uni</h1>
+      <div class = "left">
+      <img class = "logo" src = "/anagolay.png" alt = "logo" ></img>
+            <h1 class = "title">Anagolay - Lost & Found at Uni</h1>
+      </div>
+      <div class = "right">
       <ul className="nav-links">
             <li className="nav-item">
               <NavLink className="nav-link" to="/" exact activeClassName="active">Home</NavLink>
@@ -28,7 +32,9 @@ function Navbar() {
         <li><Link to="/Report">Report Lost Item</Link></li>
         <li><Link to="/Find">Found Items</Link></li>
         <li><Link to="/History">History</Link></li> */}
+        </div>
     </nav>
+    
     </div>
   );
 }
